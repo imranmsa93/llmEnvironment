@@ -37,7 +37,7 @@ chain = prompt | llm
 # Invoke the chain
 print("Invoking the chain...")
 #response = chain.invoke({"input": "What is the capital of France?"})
-response = chain.invoke({"question": "What is the capital of France?"})
+response = chain.invoke({"question": "What is the capital of Pakistan?"})
 
 print("\n--- Response ---")
 print(response.content)
